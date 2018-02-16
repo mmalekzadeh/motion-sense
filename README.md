@@ -1,6 +1,9 @@
 # MotionSense Dataset
   A brief description: goals and reasons to do it!
 
+## Download
+  Links to download
+  
 ## Scenario
   Describe the methodology, activites, trials! How we performed  it.
 
