@@ -1,1 +1,1 @@
-# motion-sense
+#MotionSense Dataset
