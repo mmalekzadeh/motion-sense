@@ -71,7 +71,11 @@ Thus, we have a time-series with 12 features:
 11. userAcceleration.y
 12. userAcceleration.z
 
+For more information, please read this page: [CMDeviceMotion](https://developer.apple.com/documentation/coremotion/cmdevicemotion)
+> The accelerometer measures the sum of two acceleration vectors: gravity and user acceleration. User acceleration is the acceleration that the user imparts to the device. Because Core Motion is able to track a device’s attitude using both the gyroscope and the accelerometer, it can differentiate between gravity and user acceleration. A CMDeviceMotion object provides both measurements in the gravity and userAcceleration properties.
+
  ### (B) Accelerometer 
+ This folder contains time-series collected just by 
  
  ### (C) Gyroscope
  
