@@ -43,7 +43,7 @@ There are 24 data subjects. Here we summarized their information:
 | 23	 |68	         | 170	       | 25	         | 0                |
 | 24	 |74	         | 173	       | 18	         | 0                |
 
-## Features
+## Folders (and Features)
  There three different folders. Usually, you just need the **folder (A)** (DeviceMotion), because this folder includes everything that can be captured by both Accelerometer and Gyroscope. However, we also have data captured by these two sensor separately in folder (B) and (C).  
  
 ### (A) DeviceMotion
