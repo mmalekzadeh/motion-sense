@@ -48,8 +48,8 @@ There are 24 data subjects. Here we summarized their information:
  
  1. DeviceMotion: This folder contains time-series collected by both Accelerometer and Gyroscope for all 15 trials. For every trial we have a 12-variate time-seris, like this:
  
- | index |	attitude.roll |	attitude.pitch |	attitude.yaw |	gravity.x |	gravity.y	| gravity.z	| rotationRate.x |	rotationRate.y |	rotationRate.z |	userAcceleration.x |	userAcceleration.y |	userAcceleration.z |
- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| index | attitude.roll | attitude.pitch | attitude.yaw | gravity.x | gravity.y | gravity.z | rotationRate.x | rotationRate.y | rotationRate.z | userAcceleration.x | userAcceleration.y | userAcceleration.z |
+| ----- | ------------- | -------------- | ------------ | --------- | --------- | --------- | -------------- | -------------- | -------------- | ------------------ | ------------------ | ------------------ |
  
 |0	-2.544349	-1.250641	2.175416	-0.176977	0.949187	0.260222	-7.204869	2.267762	0.103529	-0.060221	1.576174	-0.091292
 1	-2.524075	-1.187355	2.047589	-0.21661	0.927383	0.305012	-2.554745	6.548334	-0.005139	0.134136	0.860307	-2.152149
