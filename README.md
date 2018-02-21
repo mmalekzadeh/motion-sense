@@ -15,6 +15,7 @@ As we can see, there are 15 trials:
 
 ## Data Subjects
 There are 24 data subjects. Here we summarized their information:
+
 | Code | Weight (kg) | Height (cm) | Age (years) | Gender (F:0,M:1) |
 | ---- | ----------- | ----------- | ----------- | ---------------- |
 | 1	   | 102	       | 188	       | 46	         | 1                |
