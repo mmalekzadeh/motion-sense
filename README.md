@@ -45,8 +45,9 @@ There are 24 data subjects. Here we summarized their information:
 
 ## Features
  There three different folders:
- 
- 1. DeviceMotion: This folder contains time-series collected by both Accelerometer and Gyroscope for all 15 trials. For every trial we have a 12-variate time-seris, like this:
+<style type="text/css">
+    ol {
+DeviceMotion: This folder contains time-series collected by both Accelerometer and Gyroscope for all 15 trials. For every trial we have a multivariate time-seris, like this:
  
 | index | attitude.roll | attitude.pitch | attitude.yaw | gravity.x | gravity.y | gravity.z | rotationRate.x | rotationRate.y | rotationRate.z | userAcceleration.x | userAcceleration.y | userAcceleration.z |
 | ----- | ------------- | -------------- | ------------ | --------- | --------- | --------- | -------------- | -------------- | -------------- | ------------------ | ------------------ | ------------------ |
@@ -56,12 +57,34 @@ There are 24 data subjects. Here we summarized their information:
 | 3	| -2.564504	| -1.098202	| 1.960054	| -0.248344	| 0.89039	| 0.381471	| -2.098059	| 0.199309	| -0.671066	 | 0.619987	| 0.007925	| -0.946626 |
 | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
 
- 2. Accelerometer 
- 3. Gyroscope
+Thus, we have a time-series with 12 features:
+1. attitude.roll
+2. attitude.pitch
+3. attitude.yaw
+4. gravity.x
+5. gravity.y
+6. gravity.z
+7. rotationRate.x
+8. rotationRate.y
+9. rotationRate.z
+10. userAcceleration.x
+11. userAcceleration.y
+12. userAcceleration.z
+
+    }
+ ol {
+ Accelerometer 
+ }
+ ol {
+ Gyroscope
+ }
+</style>
+ 
+
  
  
   
- attitude.roll	attitude.pitch	attitude.yaw	gravity.x	gravity.y	gravity.z	magneticField.x	magneticField.y	magneticField.z	magneticField.accuracy	rotationRate.x	rotationRate.y	rotationRate.z	userAcceleration.x	userAcceleration.y	userAcceleration.z
+ 
 ## Labels
   Define the labels for each trial
 
