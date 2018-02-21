@@ -57,7 +57,7 @@ This folder contains time-series collected by both Accelerometer and Gyroscope f
 | 3	| -2.564504	| -1.098202	| 1.960054	| -0.248344	| 0.89039	| 0.381471	| -2.098059	| 0.199309	| -0.671066	 | 0.619987	| 0.007925	| -0.946626 |
 | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
 
-Thus, we have a time-series with 12 features:
+Thus, we have time-series with 12 features:
 1. attitude.roll
 2. attitude.pitch
 3. attitude.yaw
@@ -75,13 +75,26 @@ For more information, please read this page: [CMDeviceMotion](https://developer.
 > The accelerometer measures the sum of two acceleration vectors: gravity and user acceleration. User acceleration is the acceleration that the user imparts to the device. Because Core Motion is able to track a device’s attitude using both the gyroscope and the accelerometer, it can differentiate between gravity and user acceleration. A CMDeviceMotion object provides both measurements in the gravity and userAcceleration properties.
 
  ### (B) Accelerometer 
- This folder contains time-series collected just by 
+ Here we just have data reported by **Accelerometer** sensor. Thus, there are just three features correspond to 3 different axes:
+ 1. x
+ 2. y
+ 3. z
+ 
  
  ### (C) Gyroscope
- 
+ Here we just have data reported by **Gyroscope** sensor. Thus, there are again just three features correspond to 3 different axes:
+ 1. x
+ 2. y
+ 3. z
 
 ## Labels
-  Define the labels for each trial
+There are 6 different labels:
+1. **dws**: downstairs
+2. **ups**: upstairs
+3. **sit**: sitting
+4. **std**: standing
+5. **wlk**: walking
+6. **jog**: jogging
 
 ## Citation
   Ask to cite us..
