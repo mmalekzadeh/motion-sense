@@ -46,7 +46,8 @@ There are 24 data subjects. Here we summarized their information:
 ## Features
  There three different folders:
  
-A) DeviceMotion: This folder contains time-series collected by both Accelerometer and Gyroscope for all 15 trials. For every trial we have a multivariate time-seris, like this:
+### (A) DeviceMotion
+This folder contains time-series collected by both Accelerometer and Gyroscope for all 15 trials. For every trial we have a multivariate time-seris, like this:
  
 | index | attitude.roll | attitude.pitch | attitude.yaw | gravity.x | gravity.y | gravity.z | rotationRate.x | rotationRate.y | rotationRate.z | userAcceleration.x | userAcceleration.y | userAcceleration.z |
 | ----- | ------------- | -------------- | ------------ | --------- | --------- | --------- | -------------- | -------------- | -------------- | ------------------ | ------------------ | ------------------ |
@@ -70,9 +71,9 @@ Thus, we have a time-series with 12 features:
 11. userAcceleration.y
 12. userAcceleration.z
 
- B) Accelerometer 
+ ### (B) Accelerometer 
  
- C) Gyroscope
+ ### (C) Gyroscope
  
 
 ## Labels
