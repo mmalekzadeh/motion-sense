@@ -1,2 +1,2 @@
-# Codes [Under Construction :construction_worker: :construction_worker:]
-We will very soon add some amazing IPython files here...
+# Codes 
+Here there are some ipython notebook files for importing MoionSense Dataset and performing analytics.
