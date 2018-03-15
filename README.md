@@ -57,7 +57,7 @@ There are 24 data subjects. Here we summarized their information:
  There three different folders. Usually, you just need the **folder (A)** (DeviceMotion), because this folder includes everything that can be captured by both Accelerometer and Gyroscope. However, we also have data captured by these two sensors separately in the folder (B) and (C).  
  
 ### (A) DeviceMotion_data
-This folder contains time-series collected by both Accelerometer and Gyroscope for all 15 trials. For every trial we have a multivariate time-seris, like this:
+This folder contains time-series collected by both Accelerometer and Gyroscope for all 15 trials. For every trial we have a multivariate time-series, like this:
  
 | index | attitude.roll | attitude.pitch | attitude.yaw | gravity.x | gravity.y | gravity.z | rotationRate.x | rotationRate.y | rotationRate.z | userAcceleration.x | userAcceleration.y | userAcceleration.z |
 | ----- | ------------- | -------------- | ------------ | --------- | --------- | --------- | -------------- | -------------- | -------------- | ------------------ | ------------------ | ------------------ |
