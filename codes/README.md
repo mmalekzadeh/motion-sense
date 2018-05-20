@@ -10,8 +10,8 @@ import pandas as pd
 
 def get_ds_infos():
     ## 0:Code, 1:Weight, 2:Height, 3:Age, 4:Gender
-    dss = np.genfromtxt("ds_inf.txt")
-    dss = dss[dss[:,0].argsort()]
+    dss = np.genfromtxt("data_subjects_info.csv", delimiter=',')
+    dss = dss[1:]
     print("----> Data subjects information is imported.")
     return dss
 ##____________
