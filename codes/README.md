@@ -44,7 +44,7 @@ def creat_time_series(num_features, num_act_labels, num_gen_labels, label_codes,
 print("--> Start...")
 ## Here we set parameter to build labeld time-series from dataset of "(A)DeviceMotion_data"
 num_features = 12 # attitude(roll, pitch, yaw); gravity(x, y, z); rotationRate(x, y, z); userAcceleration(x,y,z)
-num_act_labels = 6 # dws, ups, wlk, jog
+num_act_labels = 6 # dws, ups, wlk, jog, sit, std
 num_gen_labels = 1 # 0/1(female/male)
 label_codes = {"dws":num_features, "ups":num_features+1, "wlk":num_features+2, "jog":num_features+3, "sit":num_features+4, "std":num_features+5}
 trial_codes = {"dws":[1,2,11], "ups":[3,4,12], "wlk":[7,8,15], "jog":[9,16], "sit":[5,13], "std":[6,14]}    
