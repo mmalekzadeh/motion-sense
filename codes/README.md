@@ -1,7 +1,7 @@
 # Codes 
 Here there are some ipython notebook files for importing MoionSense Dataset and performing analytics.
 
-## [new] A Code to Build a Labeld Time-Series from data into a Pandas DataFrame
+## [new] A Code to Build a Labeled Time-Series from data into a Pandas DataFrame
 ```python
 import numpy as np
 import pandas as pd
