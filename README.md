@@ -106,7 +106,7 @@ There are 6 different labels:
 5. **wlk**: walking
 6. **jog**: jogging
 
-# A Code to Build a Labeld Time-Series from data into a Pandas DataFrame
+# A Code to Build a Labeled Time-Series from data into a Pandas DataFrame
 ```python
 import numpy as np
 import pandas as pd
