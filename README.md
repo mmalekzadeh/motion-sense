@@ -237,3 +237,4 @@ dataset = creat_time_series(dt_list, act_labels, trial_codes, mode="raw", labele
 print("[INFO] -- Shape of time-Series dataset:"+str(dataset.shape))    
 dataset.head()
 ```
+<img src="https://github.com/mmalekzadeh/motion-sense/blob/master/materials/outputs.png" class="img-responsive">
