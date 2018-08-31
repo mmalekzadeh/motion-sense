@@ -132,28 +132,7 @@ dataset = creat_time_series(dt_list, act_labels, trial_codes, mode="raw", labele
 print("[INFO] -- Shape of time-Series dataset:"+str(dataset.shape))    
 dataset.head()
 ```
-#### Outputs:
-[INFO] -- Selected sensor data types: ['attitude', 'userAcceleration']
 
-[INFO] -- Selected activites: ['dws', 'ups', 'wlk', 'jog']
-
-[INFO] -- Data subjects' information is imported.
-
-[INFO] -- Creating Time-Series
-
-[INFO] -- Shape of time-Series dataset:(767660, 12)
-
-attitude.roll	attitude.pitch	attitude.yaw	userAcceleration.x	userAcceleration.y	userAcceleration.z	act	id	weight	height	age	gender
-
-0	1.528132	-0.733896	0.696372	0.294894	-0.184493	0.377542	0.0	0.0	102.0	188.0	46.0	1.0
-
-1	1.527992	-0.716987	0.677762	0.219405	0.035846	0.114866	0.0	0.0	102.0	188.0	46.0	1.0
-
-2	1.527765	-0.706999	0.670951	0.010714	0.134701	-0.167808	0.0	0.0	102.0	188.0	46.0	1.0
-
-3	1.516768	-0.704678	0.675735	-0.008389	0.136788	0.094958	0.0	0.0	102.0	188.0	46.0	1.0
-
-4	1.493941	-0.703918	0.672994	0.199441	0.353996	-0.044299	0.0	0.0	102.0	188.0	46.0	1.0
 
 
 ## [old] A Code to Import data and Plot 
