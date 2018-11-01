@@ -244,5 +244,3 @@ dataset.head()
 
 * [Mobile Sensor Data Anonymization](https://arxiv.org/pdf/1810.11546.pdf)
 * [Protecting Sensory Data against Sensitive Inferences](https://arxiv.org/pdf/1802.07802.pdf)
-
-*
