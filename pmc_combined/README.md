@@ -1,5 +1,5 @@
 
-
+*Note: You should first download the [motion sense dataset](https://github.com/mmalekzadeh/motion-sense/blob/master/data/A_DeviceMotion_data.zip) and unzip it in the same directory.*
 
 ```python
 import numpy as np
