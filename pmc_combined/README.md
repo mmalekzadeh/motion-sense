@@ -837,8 +837,8 @@ def build_AAE(loss_weights):
                        loss_weights = loss_weights,                 
                        optimizer = "adam",
                        metrics = ["acc"])
-    enc_to_reps.set_weights(enc_dec_tmp.layers[1].get_weights()) 
-    reps_to_dec.set_weights(enc_dec_tmp.layers[2].get_weights()) 
+    #enc_to_reps.set_weights(enc_dec_tmp.layers[1].get_weights()) 
+    #reps_to_dec.set_weights(enc_dec_tmp.layers[2].get_weights()) 
 
     iterations = 1
     batch_size = 128
