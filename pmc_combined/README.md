@@ -554,15 +554,15 @@ def eval_gen(X,Y, gen_class_numbers = 1, fm = (2,5), ep=100):
     
     eval_gen = Estimator.build(height, width, gen_class_numbers, name ="EVAL_GEN", fm=fm, act_func="sigmoid",hid_act_func="relu")
     eval_gen.compile( loss="binary_crossentropy", optimizer='adam', metrics=['acc'])
-#     X , Y = shuffle(X,Y)
-#     eval_gen.fit(X, Y,
-#                 validation_split = .2,
-#                 epochs = ep,
-#                 batch_size = 128,
-#                 verbose = 0,
-#                 class_weight = get_class_weights(Y),
-#                 callbacks = callbacks_list
-#                )
+     X , Y = shuffle(X,Y)
+     eval_gen.fit(X, Y,
+                 validation_split = .2,
+                 epochs = ep,
+                 batch_size = 128,
+                 verbose = 0,
+                 class_weight = get_class_weights(Y),
+                 callbacks = callbacks_list
+                )
 
     eval_gen.load_weights("GR.hdf5")
     eval_gen.compile( loss="binary_crossentropy", optimizer='adam', metrics=['acc'])
