@@ -840,15 +840,8 @@ def build_AAE(loss_weights):
     #enc_to_reps.set_weights(enc_dec_tmp.layers[1].get_weights()) 
     #reps_to_dec.set_weights(enc_dec_tmp.layers[2].get_weights()) 
 
-    iterations = 1
-    batch_size = 128
 
-    ep1 = 50
-    ep2 = 50
-    ep3 = 50
-    ep4 = 100
-
-    return anon_model
+    return anon_model, rcon_task, rcon_id
 ```
 
 
@@ -860,7 +853,7 @@ eq_w_gen_labels.fill(0.5)
 
 ```python
 loss_weights=[1, 1, 2]            
-anon_model = build_AAE(loss_weights)
+anon_model, rcon_task, rcon_id = build_AAE(loss_weights)
 anon_model.summary()
 ```
 
@@ -885,6 +878,14 @@ anon_model.summary()
 
 
 ```python
+iterations = 1
+batch_size = 128
+
+ep1 = 50
+ep2 = 50
+ep3 = 50
+ep4 = 100
+
 for itr in range(0,iterations):
 
     print("______________________________________")
