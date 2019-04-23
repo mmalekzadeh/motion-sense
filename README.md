@@ -244,5 +244,5 @@ dataset.head()
 
 * [Mobile Sensor Data Anonymization](https://arxiv.org/pdf/1810.11546.pdf)
 * [Protecting Sensory Data against Sensitive Inferences](https://arxiv.org/pdf/1802.07802.pdf)
-*
+
 * [A Novel Approach for Activity Recognition with Down-Sampling 1D Local Binary Pattern](http://www.aece.ro/displaypdf.php?year=2019&number=1&article=5)
