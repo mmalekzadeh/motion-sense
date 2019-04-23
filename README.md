@@ -228,13 +228,13 @@ TRIAL_CODES = {
 
 ## Here we set parameter to build labeld time-series from dataset of "(A)DeviceMotion_data"
 ## attitude(roll, pitch, yaw); gravity(x, y, z); rotationRate(x, y, z); userAcceleration(x,y,z)
-sdt = ["userAcceleration"]
+sdt = ["attitude", "userAcceleration"]
 print("[INFO] -- Selected sensor data types: "+str(sdt))    
 act_labels = ACT_LABELS [0:4]
 print("[INFO] -- Selected activites: "+str(act_labels))    
 trial_codes = [TRIAL_CODES[act] for act in act_labels]
 dt_list = set_data_types(sdt)
-dataset = creat_time_series(dt_list, act_labels, trial_codes, mode="mag", labeled=True)
+dataset = creat_time_series(dt_list, act_labels, trial_codes, mode="raw", labeled=True)
 print("[INFO] -- Shape of time-Series dataset:"+str(dataset.shape))    
 dataset.head()
 ```
