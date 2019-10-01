@@ -279,7 +279,7 @@ dataset.head()
 ```
 <img src="https://github.com/mmalekzadeh/motion-sense/blob/master/materials/output.png" class="img-responsive">
 
-## MotionSense dataset have been used in the following research papers:
+## Some research papers that use MotionSense:
 
 * [Mobile Sensor Data Anonymization](https://arxiv.org/pdf/1810.11546.pdf)
 * [Protecting Sensory Data against Sensitive Inferences](https://arxiv.org/pdf/1802.07802.pdf)
