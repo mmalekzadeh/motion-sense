@@ -291,5 +291,5 @@ dataset.head()
 * [Unsupervised Discovery of Temporal Structure in Noisy Data with Dynamical Components Analysis](https://arxiv.org/abs/1905.09944)
 * [On the Homogenization of Heterogeneous Inertial-Based Databases for Human Activity Recognition](https://ieeexplore.ieee.org/abstract/document/8817170)
 * [Enumerating Hub Motifs in Time Series Based on the Matrix Profile](https://milets19.github.io/papers/milets19_paper_5.pdf)
-* [Multi-task Self-Supervised Learning for Human Activity Detection](Multi-task Self-Supervised Learning for Human Activity Detection)
+* [Multi-task Self-Supervised Learning for Human Activity Detection](https://dl.acm.org/citation.cfm?id=3328932)
 
