@@ -284,4 +284,12 @@ dataset.head()
 * [Mobile Sensor Data Anonymization](https://arxiv.org/pdf/1810.11546.pdf)
 * [Protecting Sensory Data against Sensitive Inferences](https://arxiv.org/pdf/1802.07802.pdf)
 
+* [QUOTIENT: Two-Party Secure Neural Network Training and Prediction](https://arxiv.org/abs/1907.03372)
 * [A Novel Approach for Activity Recognition with Down-Sampling 1D Local Binary Pattern](http://www.aece.ro/displaypdf.php?year=2019&number=1&article=5)
+* [Applying Memoization as an Approximate Computing Method for Transiently Powered Systems](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1343695&dswid=-4309)
+* [Biometric data on the edge for secure, smart and user tailored access to cloud services](https://www.sciencedirect.com/science/article/pii/S0167739X19303188)
+* [Unsupervised Discovery of Temporal Structure in Noisy Data with Dynamical Components Analysis](https://arxiv.org/abs/1905.09944)
+* [On the Homogenization of Heterogeneous Inertial-Based Databases for Human Activity Recognition](https://ieeexplore.ieee.org/abstract/document/8817170)
+* [Enumerating Hub Motifs in Time Series Based on the Matrix Profile](https://milets19.github.io/papers/milets19_paper_5.pdf)
+* [Multi-task Self-Supervised Learning for Human Activity Detection](Multi-task Self-Supervised Learning for Human Activity Detection)
+
