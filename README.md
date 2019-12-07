@@ -284,11 +284,13 @@ dataset.head()
 ## See also:
 - For splitting this dataset into train_test: https://github.com/mmalekzadeh/sensplit
 
-## Some research papers that use MotionSense:
-
+## Some research papers that use MotionSense dataset:
+### Our Work
+* [Privacy and Utility Preserving Sensor-Data Transformations](https://arxiv.org/pdf/1911.05996.pdf)
 * [Mobile Sensor Data Anonymization](https://arxiv.org/pdf/1810.11546.pdf)
 * [Protecting Sensory Data against Sensitive Inferences](https://arxiv.org/pdf/1802.07802.pdf)
 
+### Others
 * [QUOTIENT: Two-Party Secure Neural Network Training and Prediction](https://arxiv.org/abs/1907.03372)
 * [A Novel Approach for Activity Recognition with Down-Sampling 1D Local Binary Pattern](http://www.aece.ro/displaypdf.php?year=2019&number=1&article=5)
 * [Applying Memoization as an Approximate Computing Method for Transiently Powered Systems](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1343695&dswid=-4309)
@@ -297,4 +299,6 @@ dataset.head()
 * [On the Homogenization of Heterogeneous Inertial-Based Databases for Human Activity Recognition](https://ieeexplore.ieee.org/abstract/document/8817170)
 * [Enumerating Hub Motifs in Time Series Based on the Matrix Profile](https://milets19.github.io/papers/milets19_paper_5.pdf)
 * [Multi-task Self-Supervised Learning for Human Activity Detection](https://dl.acm.org/citation.cfm?id=3328932)
-
+* [Hand-crafted features vs residual networks for human activities recognition using accelerometer](https://ieeexplore.ieee.org/abstract/document/8901021)
+* [Human Activities Recognition Using Accelerometer and Gyroscope](https://link.springer.com/chapter/10.1007/978-3-030-34255-5_28)
+* [PrivStream: Enabling Privacy-Preserving Inferences on IoT Data Stream at the Edge](https://ieeexplore.ieee.org/abstract/document/8855725)
